@@ -1,0 +1,62 @@
+{
+    //Editor------------------------------------------------
+    "editor.fontFamily": "jetbrains mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "quickfix.biome": "explicit",
+        "source.organizeImports.biome": "explicit"
+    },
+    "editor.wordWrap": "off",
+    //Workbench---------------------------------------------
+    "workbench.colorTheme": "Constatic",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "symbols",
+    "workbench.editor.labelFormat": "short",
+    //Explorer----------------------------------------------
+    "explorer.compactFolders": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.confirmDelete": false,
+    "explorer.fileNesting.patterns": {
+        "package.json": "biome*, .eslint*, prettier*, tsconfig*, jsconfig*, vite*, pnpm-*, bun.lock, bunfig.toml, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+    //Window------------------------------------------------
+    "window.commandCenter": true,
+    //git---------------------------------------------------
+    "git.enableSmartCommit": true,
+    "github.copilot.enable": {
+        "*": false,
+    },
+    //Terminal----------------------------------------------
+    "terminal.integrated.fontFamily": "firacode nerd font",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.defaultProfile.windows": "Bash",
+    //Javascript--------------------------------------------
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    //apc---------------------------------------------------
+    "apc.font.family": "firacode",
+    //Formatter---------------------------------------------
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    //others------------------------------------------------
+    "breadcrumbs.enabled": false,
+    "files.autoSave": "afterDelay",
+    "symbols.files.associations": {
+        "bun.lock": "bun"
+    },
+    "discloud.token": "eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQzNjMwMzg1NTM2MjI0NDYzMiIsImtleSI6ImM4ZjBjOTFlN2ZhMjZkNjY1ZDIwNjgwODVkZTYifQ.XLhLEtM5yPEgi-VbLoduEfi3EoH6BNb-zFSyDGQjFF0",
+    "workbench.editor.empty.hint": "hidden",
+    "explorer.confirmDragAndDrop": false
+}
